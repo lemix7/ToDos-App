@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .list {
+    @apply bg-gray-600 w-full rounded-lg p-2 flex justify-between items-center mt-4 text-white 
+  }
+  .btn{
+    @apply  px-2 py-1 rounded-md font-semibold text-white hover:bg-red-700 transition duration-300 ease-in-out
+  }
+  .input{
+    @apply bg-gray-800 outline-none text-white p-2 rounded-lg py-2 px-4 
+  }
+  .add-btn{
+    @apply bg-blue-500 text-white p-2 rounded-md
+  }
+}
